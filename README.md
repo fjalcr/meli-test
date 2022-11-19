@@ -63,6 +63,7 @@ En este y otros proyectos, se pueden realizar mejoras, algunas de las mejoras qu
   - Agregar test end to end a fin de comprobar la mayor cantidad de flujos que un usuario pueda realizar.
   - Agregar un agente de alertas a fin de monitorear cuando algún servicio no está disponible, como por ejemplo. [Sentry](https://sentry.io/welcome/)
   - Utilizaría las imágenes desde alguna CDN a fin de obtener la imagen más apta para la conexión del usuario, por ejemplo con akamai o aws.
+  - Migraría todos los textos estáticos de algunos componentes a un cms a fin de evitar las modificaciones directas en código.
 
 #
 
