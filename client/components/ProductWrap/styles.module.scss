@@ -1,0 +1,79 @@
+@import "../../styles/_vars.scss";
+@import "../../styles/mixins.scss";
+.productWrap{
+    grid-column: 2/12;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    background: white;
+    align-items: top;
+    .productDetails{
+        grid-row: 1;
+        grid-column: 1/8;
+        @include desktop-xl {
+            grid-column: 1/10;
+        }
+        display: flex;
+        flex-direction: column;
+        .productImage{
+            margin: 0 auto;
+            width: 680px;
+            height: 680px;
+            display: flex;
+            align-items: center;
+            .productImagePhoto{
+            }
+        }
+        .productDescriptionWrap{
+                margin-left: $margin-lg;
+            .productDescriptionTitle{
+                font-size: $text-xl;
+                margin-bottom: $margin-lg;
+            }
+            .productDescription{
+                font-size: $text-sm;
+                margin-top: 0;
+            color: $tertiary;
+                margin-bottom: $margin-lg;
+            }
+        }
+    }
+    .productPrice{
+        grid-column: 9/12;
+            margin-right: $margin-lg;
+            @include desktop-xl {
+            grid-column: 10/13;
+        }
+        grid-row: 1;
+        margin-top: $margin-lg;
+        .productCondition{
+            font-size: $text-xs;
+            margin-bottom: $margin-md;
+            margin-top: 0;
+        }
+        .productTitle{
+            font-size: $text-lg;
+            margin-bottom: $margin-lg;
+        }
+        .productPriceAmount{
+            font-size: $text-xl;
+            @include desktop {
+                font-size: $text-xl;
+            }
+            @include desktop {
+                font-size: $text-xxl;
+            }
+            margin: $margin-lg 0;
+            
+        }
+        .productBuyButton{
+            background: $senary;
+            border: none;
+            color: white;
+            padding: $padding-xxs 0;
+            border-radius: 4px;
+            width: 100%;
+
+        }
+    }
+}

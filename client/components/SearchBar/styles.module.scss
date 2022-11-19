@@ -1,0 +1,31 @@
+@import "../../styles/_vars.scss";
+.searchBar{
+    grid-column: 3/12;
+    background: white;
+    grid-row: 1;
+    grid-template-columns: repeat(15, 1fr);
+    display: flex;
+    .inputSearch{
+       flex: 1;
+       font-size: 18px;
+       border: none;
+       font-size: $text-md;
+       padding: 0 10px;
+       outline: none;
+    }
+    .wrapSearchIcon{
+        background: $quinary;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+        picture{
+            margin: 5px auto 0px auto;
+            
+        }
+    }
+}
+    
+

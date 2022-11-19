@@ -1,0 +1,61 @@
+@import "../../styles/_vars.scss";
+.productLink{
+    text-decoration: none;
+    color: auto;
+    .productWrap{
+        grid-column: 2/12;
+        background: white;
+        border-bottom: 1px solid $quinary;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .productImage{
+            border-radius: 4px;
+            margin: $margin-md;
+            width:180px;
+            height: 180px;
+        }
+        .productDetailsWrap{
+            flex:1;
+            display: flex;
+            .productDetails{
+                flex: 1;
+                display: grid;
+                grid-template-columns: repeat(7, 2fr);
+                .productDetailsTop{
+                    grid-column: 1/7;
+                    grid-row: 1;
+                    display: flex;
+                    margin-bottom: $margin-lg;
+                    align-items: baseline;
+                    .wrapPriceFreeShipping{
+                        flex: 1;
+                        display: flex;
+                        .productPrice{
+                            color: $secondary;
+                            font-size: $text-lg;
+                            margin: 0;
+                        }
+                        .freeShipping{
+                            margin-left: 10px;
+                        }
+                    }
+                        .productCity{
+                            font-size: $text-xxs;
+                            color: $quaternary;
+                            margin:0;
+                        }
+                }
+                .productDetailsBottom{
+                    grid-column: 1/7;
+                    grid-row: 2;
+                    .productDescription{
+                        font-size: $text-md;
+                        color: $secondary;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

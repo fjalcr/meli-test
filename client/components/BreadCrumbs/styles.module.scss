@@ -1,0 +1,11 @@
+@import "../../styles/_vars.scss";
+.breadCrumbsWrap{
+        grid-column: 2/12;
+        margin: $padding-sm 0 6px 0; //6 en bottom + 10px grid gab
+        .breadCrumbsItem{
+            text-decoration: none;
+            color: $tertiary;
+            margin: 0;
+        }
+
+}

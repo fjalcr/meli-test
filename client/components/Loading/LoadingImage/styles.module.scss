@@ -1,0 +1,79 @@
+.sm{
+    width: 20px;
+    height: 20px;
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+.md{
+    width: 60px;
+    height: 60px;
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+.lg{
+    width: 60px;
+    height: 60px;
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+.xl{
+    width: 60px;
+    height: 60px;
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+.xxl{
+    width: 120px;
+    height: 120px;
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+.xxxl{
+    width: 180px;
+    height: 180px;
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+.xxxxl{
+    width: 300px;
+    height: 3000px;
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+.xxxxxl{
+    width: 560px;
+    height: 560px;
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+.xxxxxxl{
+    width: 680px;
+    height: 680px;
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+.red{
+    background: red;
+}
+.gray{
+    background: #EEEEEE;
+}
+.black{
+    background: black;
+}
+@keyframes hintloading
+{
+  0% {
+    opacity: 0.3;
+  }
+  50%  {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@-webkit-keyframes hintloading
+{
+  0% {
+    opacity: 0.3;
+  }
+  50%  {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
